@@ -1,7 +1,7 @@
 ### Description
-1. What was changed: Added footer component
-2. Why was it changed: To add footer component
-3. How was it changed: Created footer component with basic `.js` and `.css` files
+1. What was changed: 
+2. Why was it changed: 
+3. How was it changed: 
 
 ### Type of change
 - [ ] Bug fix
@@ -12,7 +12,7 @@
 [Link to JIRA](https://bobaqueens.atlassian.net/browse/MW-)
 
 ### Steps to test
-1. Check if footer exists
+1. 
 
 ### Screenshots (optional)
 
