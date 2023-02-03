@@ -1,0 +1,12 @@
+.footer-container {
+    background-color: #383838;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.copyright {
+    color: #fff;
+    align-self: center;
+}
