@@ -1,0 +1,27 @@
+.close-bar-container {
+    background-color: #53728E;
+    top: 0%;
+    width: 100%;
+    height: 30px;
+    //float: left;
+}
+
+.navbar-logo {
+    color: #fff;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+.icon-span {
+    float: right;
+    padding-right: 10px;
+    color: white;
+
+}
+
+.square {
+    height: 10px;
+    width: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
