@@ -1,0 +1,23 @@
+:root {
+    --dark: #383838;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: none;
+}
+
+.btn--dark {
+    background-color: var(--dark);
+    border-bottom: 1px solid #484848;
+    color: #E6E6E6;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--dark);
+    transition: all 0.3s ease-out;
+}
