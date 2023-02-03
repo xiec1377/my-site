@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Router>
+        <CloseBar />
         <NavBar />
         <Routes>
           <Route path="/home" element={<Home />} />
