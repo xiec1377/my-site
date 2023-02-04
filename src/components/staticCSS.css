@@ -5,7 +5,6 @@
     top: 0px;
     font-size: 50px;
     padding-bottom:7px;
-    margin: 0px;
 }
 
 
@@ -21,4 +20,5 @@
 
 h1 {
     margin-top: 10px;
+    margin-left: 50px;
 }
