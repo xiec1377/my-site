@@ -3,7 +3,7 @@
     padding: 15px;
     display: flex;
     justify-content: center;
-    bottom: -100px;
+    bottom: -30%;
     position: absolute;
     width: calc(100% - 265px);
     z-index: -100;
