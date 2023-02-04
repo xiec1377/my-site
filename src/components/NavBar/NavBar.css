@@ -18,7 +18,22 @@
     display: grid;
     grid-template-columns: 50px auto auto auto;
     grid-gap: 0px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
 }
+
+p {
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #53728E;
+    background-color: #53728E;
+    font-size: 15px;
+}
+
 
 ul {
     list-style: none;
