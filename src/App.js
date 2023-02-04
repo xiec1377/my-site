@@ -15,6 +15,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about-me" element={<Home />} />
+          <Route path="/experiences" element={<Home />} />
+          <Route path="/projects" element={<Home />} />
+          <Route path="/hobbies" element={<Home />} />
         </Routes>
       </Router>
       <Footer />
