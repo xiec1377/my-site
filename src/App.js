@@ -10,6 +10,7 @@ import TopStaticBar from './components/TopStaticBar/TopStaticBar'
 import SideStaticBar from './components/SideStaticBar/SideStaticBar'
 import AboutMe from './components/pages/AboutMe/AboutMe'
 import Experiences from './components/pages/Experiences/Experiences'
+import Projects from './components/pages/Projects/Projects'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/experiences" element={<Experiences />} />
-          <Route path="/projects" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/hobbies" element={<Home />} />
         </Routes>
       </Router>
