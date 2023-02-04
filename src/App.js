@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home/Home'
 import TopStaticBar from './components/TopStaticBar/TopStaticBar'
 import SideStaticBar from './components/SideStaticBar/SideStaticBar'
+import AboutMe from './components/pages/AboutMe/AboutMe'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<Home />} />
+          <Route path="/about-me" element={<AboutMe />} />
           <Route path="/experiences" element={<Home />} />
           <Route path="/projects" element={<Home />} />
           <Route path="/hobbies" element={<Home />} />

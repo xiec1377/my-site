@@ -6,15 +6,6 @@
     font-family: "Verdana", sans-serif;
 }
 
-.page {
-    position: absolute;
-    width: calc(100% - 265px);
-    height: 100%;
-    background-color: #fff;
-    left: 25px;
-    top: 80px;
-    z-index: -100;
-}
 
 .home-desc {
     margin-left: 60px;
