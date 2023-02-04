@@ -9,6 +9,7 @@ import Home from './components/pages/Home/Home'
 import TopStaticBar from './components/TopStaticBar/TopStaticBar'
 import SideStaticBar from './components/SideStaticBar/SideStaticBar'
 import AboutMe from './components/pages/AboutMe/AboutMe'
+import Experiences from './components/pages/Experiences/Experiences'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/experiences" element={<Home />} />
+          <Route path="/experiences" element={<Experiences />} />
           <Route path="/projects" element={<Home />} />
           <Route path="/hobbies" element={<Home />} />
         </Routes>
