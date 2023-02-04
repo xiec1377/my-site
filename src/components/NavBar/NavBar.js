@@ -15,35 +15,43 @@ function NavBar() {
       <nav className="navbar">
         <div className="navbar-container">
           <ul>
+<<<<<<< Updated upstream
             <li className="nav-item">
               <div className="nav-icon"></div>
               <Link to="/" className="nav-links">
                 home
               </Link>
+=======
+            <li>
+              <a href="/" className="nav-item">
+                <div className="nav-icon"></div>
+                <p>home</p>
+              </a>
+>>>>>>> Stashed changes
             </li>
-            <li className="nav-item">
-            <div className="nav-icon"></div>
-              <Link to="/about-me" className="nav-links">
-                about me
-              </Link>
+            <li>
+              <a href="/about-me" className="nav-item">
+                <div className="nav-icon"></div>
+                <p>about me</p>
+              </a>
             </li>
-            <li className="nav-item">
-            <div className="nav-icon"></div>
-              <Link to="/experiences" className="nav-links">
-                experiences
-              </Link>
+            <li>
+              <a href="/experiences" className="nav-item">
+                <div className="nav-icon"></div>
+                <p>experiences</p>
+              </a>
             </li>
-            <li className="nav-item">
-            <div className="nav-icon"></div>
-              <Link to="/projects" className="nav-links">
-                projects
-              </Link>
+            <li>
+              <a href="/projects" className="nav-item">
+                <div className="nav-icon"></div>
+                <p>projects</p>
+              </a>
             </li>
-            <li className="nav-item">
-            <div className="nav-icon"></div>
-              <Link to="/hobbies" className="nav-links">
-                hobbies
-              </Link>
+            <li>
+              <a href="/hobbies" className="nav-item">
+                <div className="nav-icon"></div>
+                <p>hobbies</p>
+              </a>
             </li>
           </ul>
         </div>
