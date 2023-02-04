@@ -1,0 +1,48 @@
+.card-container{
+    border-bottom: 1px dashed #484848;
+}
+
+.cards-container{
+    margin-left: 50px;
+
+}
+
+.icon {
+
+}
+
+h2 {
+    color: #8EB8DE;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    color: #53728E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.date {
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto auto auto auto;
+    right: 50px;
+    margin-top: -20px;
+}
+
+ul {
+    list-style-type: circle;
+    color: #808080;
+}
+
+b {
+    color: #8EB8DE;
+}
