@@ -3,9 +3,10 @@
     padding: 15px;
     display: flex;
     justify-content: center;
-    width: 100%;
-    bottom: 0px;
-    position: fixed;
+    bottom: -100px;
+    position: absolute;
+    width: calc(100% - 265px);
+    z-index: -100;
 }
 
 .copyright {

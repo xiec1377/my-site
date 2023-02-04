@@ -21,7 +21,6 @@ function App() {
           <Route path="/hobbies" element={<Home />} />
         </Routes>
       </Router>
-      <Footer />
     </>
   )
 }

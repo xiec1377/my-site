@@ -1,7 +1,17 @@
 .side-static-bar {
-    width: auto;
+    width: 25px;
+    height: auto;
+    float: left;
+    top: 80px;
+    position: fixed;
+}
+
+
+.left-div {
+    width: 25px;
     height: 100%;
     float: left;
-    margin-top: 50px;
+    top: 733px;
     position: fixed;
+    background-color: #484848;
 }
