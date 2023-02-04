@@ -11,6 +11,7 @@ import SideStaticBar from './components/SideStaticBar/SideStaticBar'
 import AboutMe from './components/pages/AboutMe/AboutMe'
 import Experiences from './components/pages/Experiences/Experiences'
 import Projects from './components/pages/Projects/Projects'
+import Hobbies from './components/pages/Hobbies/Hobbies'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/hobbies" element={<Home />} />
+          <Route path="/hobbies" element={<Hobbies />} />
         </Routes>
       </Router>
     </>
