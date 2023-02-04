@@ -12,6 +12,7 @@ export default function StaticInterface() {
       <TopStaticBar />
       <SideStaticBar />
       <ColourPicker />
+      <NavBar />
     </>
   )
 }
