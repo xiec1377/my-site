@@ -1,0 +1,25 @@
+
+.about-me-desc {
+    margin-left: 500px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: transparent;
+    width: 60%; /*calc(70% - 265px); */
+    border: 1px dashed #53728E;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #53728E;
+
+}
+
+.profile-pic {
+    width: 400px;
+    height: auto;
+    float: left;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+

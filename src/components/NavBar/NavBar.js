@@ -17,7 +17,7 @@ function NavBar() {
           <ul>
             <li className="nav-item">
               <div className="nav-icon"></div>
-              <Link to="/home" className="nav-links">
+              <Link to="/" className="nav-links">
                 home
               </Link>
             </li>

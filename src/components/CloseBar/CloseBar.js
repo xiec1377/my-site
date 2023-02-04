@@ -5,7 +5,7 @@ import './CloseBar.css'
 function CloseBar() {
   return (
     <div className="close-bar-container">
-      <Link to="/home" className="navbar-logo">
+      <Link to="/" className="navbar-logo">
         &#128526; catherine-xie-website-2023
       </Link>
       <img
