@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from '../../Footer/Footer'
-import './Home.css';
+import StaticInterface from '../../StaticInterface/StaticInterface'
+import './Home.css'
 
 function Home() {
   return (
     <>
+      <StaticInterface />
       <div className="home-title">welcome.</div>
     </>
   )

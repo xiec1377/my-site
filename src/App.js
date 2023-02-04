@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import CloseBar from './components/CloseBar/CloseBar'
@@ -7,16 +7,14 @@ import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home/Home'
 import TopStaticBar from './components/TopStaticBar/TopStaticBar'
+import SideStaticBar from './components/SideStaticBar/SideStaticBar'
 
 function App() {
   return (
     <>
       <Router>
-        <CloseBar />
-        <TopStaticBar />
-        <NavBar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
       <Footer />
