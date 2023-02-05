@@ -38,9 +38,8 @@ function Home() {
         </div>
       </nav>
       <div className="page">
-        <div className="page-title">
-          <h1>welcome.</h1>
-        </div>
+        <h1 id="welcome-title">welcome.</h1>
+
         <div className="home-desc">
           Welcome to my page! Click on a page on the right to get started
         </div>
