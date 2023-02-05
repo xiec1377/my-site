@@ -13,7 +13,6 @@ export default function Hobbies() {
           <h1>hobbies.</h1>
         </div>
       </div>
-      <Footer />
     </>
   )
 }

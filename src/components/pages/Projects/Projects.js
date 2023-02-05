@@ -13,7 +13,6 @@ export default function Projects() {
           <h1>projects.</h1>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
