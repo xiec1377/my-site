@@ -1,0 +1,134 @@
+/* #645EAD;
+body { background: #121725; }
+
+#icon-eye {
+  width: 40px;
+  margin: auto;
+  padding: 20px;
+  resize: horizontal;
+  overflow: auto;
+  /* set the icon color */
+  color: white;
+}
+
+/* for other color settings, use the svg's ids */
+/* 
+#eye-pupil { color: blue; }
+#eye-lashes { color: red; }
+#eye-bottom, #eye-top { color: yellow; } 
+*/
+
+button {
+  background: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+button:hover { cursor: pointer; }
+
+.eye-open button::after { 
+    content: "Close"; 
+}
+
+.eye-close button::after { content: "Open"; }
+
+#eye {
+    /* set these to blink faster/slower */
+    --duration-blink: .2s;
+    --duration-lashes: .2s;
+    
+    /* calculated and fixed vars */
+    --delay-lashes: var(--duration-blink);
+    --duration-pupil: .1s;
+    --delay-pupil: calc(var(--duration-blink)*2/3);
+  }
+
+  #eye-bottom, #eye-top { stroke-linecap: round; }
+
+  #eye-top, #eye-lashes { transition: var(--duration-blink) ease-in; }
+
+  #eye-pupil {
+    opacity: 0;
+    transition: opacity var(--duration-pupil) var(--delay-pupil) ease;
+  }
+
+  /* open state */
+  .eye-open #eye-top,
+  .eye-open #eye-lashes {
+    transform: rotateX(.5turn);
+    animation: scaleUp var(--duration-lashes) var(--delay-lashes) ease-in-out;
+  }
+
+  .eye-open #eye-pupil { opacity: 1; }
+
+  /* close state */
+  .eye-close #eye-lashes { animation: scaleDown var(--duration-lashes) var(--duration-blink) ease-in-out; }
+
+  .eye-close #eye-pupil { opacity: 0; }
+
+  /* keyfranes */
+  @keyframes scaleUp {
+    50% { transform: rotateX(.5turn) scaleY(1.15); }
+    to { transform: rotateX(.5turn) scaleY(1); }
+  }
+
+  @keyframes scaleDown {
+    50% { transform: scaleY(1.15); }
+    to { transform: scaleY(1); }
+  }
+
+
+  #eye {
+    /* set these to blink faster/slower */
+    --duration-blink: .2s;
+    --duration-lashes: .2s;
+    
+    /* calculated and fixed vars */
+    --delay-lashes: var(--duration-blink);
+    --duration-pupil: .1s;
+    --delay-pupil: calc(var(--duration-blink)*2/3);
+  }
+
+  #eye-bottom, #eye-top { stroke-linecap: round; }
+
+  #eye-top, #eye-lashes { transition: var(--duration-blink) ease-in; }
+
+  #eye-pupil {
+    opacity: 0;
+    transition: opacity var(--duration-pupil) var(--delay-pupil) ease;
+  }
+
+  /* open state */
+  .eye-open #eye-top,
+  .eye-open #eye-lashes {
+    transform: rotateX(.5turn);
+    animation: scaleUp var(--duration-lashes) var(--delay-lashes) ease-in-out;
+  }
+
+  .eye-open #eye-pupil { opacity: 1; }
+
+  /* close state */
+  .eye-close #eye-lashes { animation: scaleDown var(--duration-lashes) var(--duration-blink) ease-in-out; }
+
+  .eye-close #eye-pupil { opacity: 0; }
+
+  /* keyfranes */
+  @keyframes scaleUp {
+    50% { transform: rotateX(.5turn) scaleY(1.15); }
+    to { transform: rotateX(.5turn) scaleY(1); }
+  }
+
+  @keyframes scaleDown {
+    50% { transform: scaleY(1.15); }
+    to { transform: scaleY(1); }
+  } */
+
+  .eye-icon {
+    position: relative;
+    margin-top: 100px;
+  }

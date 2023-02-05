@@ -12,11 +12,14 @@ import AboutMe from './components/pages/AboutMe/AboutMe'
 import Experiences from './components/pages/Experiences/Experiences'
 import Projects from './components/pages/Projects/Projects'
 import Hobbies from './components/pages/Hobbies/Hobbies'
+import StaticInterface from './components/StaticInterface/StaticInterface'
+import EyeIcon from './components/StaticInterface/EyeIcon/EyeIcon'
 
 function App() {
   return (
     <>
       <Router>
+        <StaticInterface />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />

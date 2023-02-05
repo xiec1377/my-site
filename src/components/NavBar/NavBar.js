@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { Button } from '../Button/Button'
+import EyeIcon from '../StaticInterface/EyeIcon/EyeIcon'
 import './NavBar.css'
 
 // {
@@ -18,7 +19,6 @@ function NavBar() {
             <div className="nav-icon"></div>
             <p>home</p>
           </a>
-
           <a href="/about-me" className="nav-item">
             <div className="nav-icon"></div>
             <p>about me</p>

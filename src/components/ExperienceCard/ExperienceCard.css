@@ -3,6 +3,7 @@
     margin-left: 50px;
     margin-top: 30px;
     margin-right: 50px;
+    position: absolute;
 }
 
 .card-container{
@@ -11,7 +12,7 @@
 }
 
 div.card-container:hover {
-    background-color: red;
+    border: 1px solid #53728E;
 }
 
 
