@@ -24,7 +24,7 @@ export default function StaticInterface() {
       <ColourPicker />
       {/* <SketchPicker />
       <ChromePicker /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
