@@ -39,6 +39,14 @@ export default function Hobbies() {
         <div className="page-title">
           <h1>hobbies.</h1>
         </div>
+        {/* <div className="hobby-desc">
+            <p>In my free time, I dabble in digital art, 3D-modeling and knitting.</p>
+        </div> */}
+        <div className="gallery">
+          <div className="gallery-column">
+            <img src={require('./monsterC2.jpg')} className="monster" />
+          </div>
+        </div>
       </div>
     </>
   )

@@ -22,3 +22,13 @@
 
 }
 
+
+.navbar-container {
+    background-color: #383838;
+    position: fixed;
+    float: right;
+    width: 225px;
+    height: 500px;
+    right: 0%;
+    padding: 0px;
+}

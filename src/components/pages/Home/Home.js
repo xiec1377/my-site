@@ -4,6 +4,7 @@ import NavBar from '../../NavBar/NavBar'
 import StaticInterface from '../../StaticInterface/StaticInterface'
 import TextBox from '../../TextBox/TextBox'
 import './Home.css'
+import '../../staticCSS.css'
 
 function Home() {
   return (
@@ -37,9 +38,11 @@ function Home() {
         </div>
       </nav>
       <div className="page">
-        <div className="home-title">welcome.</div>
+        <div className="page-title">
+          <h1>welcome.</h1>
+        </div>
         <div className="home-desc">
-          Welcome to my page! To get started, click on a page on the right.{' '}
+          Welcome to my page! Click on a page on the right to get started
         </div>
       </div>
     </>
