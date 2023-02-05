@@ -14,7 +14,6 @@ function Home() {
           Welcome to my page! To get started, click on a page on the right.{' '}
         </div>
       </div>
-      <Footer />
     </>
   )
 }

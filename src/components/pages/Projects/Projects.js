@@ -15,7 +15,6 @@ export default function Projects() {
         </div>
         <ProjectGallery />
       </div>
-      <Footer />
     </>
   )
 }

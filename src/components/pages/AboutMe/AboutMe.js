@@ -33,7 +33,6 @@ export default function AboutMe() {
           passion for digital art and go to the gym.
         </div>
       </div>
-      <Footer />
     </>
   )
 }
