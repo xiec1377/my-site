@@ -42,9 +42,8 @@ export default function AboutMe() {
 
         <div id="about-me-page">
           <img
-            src={require('./profile_pic.jpg')}
+            src={require('./interview.jpg')}
             className="profile-pic"
-            alt="profile-pic"
           />
           <div className="about-me-desc">
             Welcome to my page! I'm Catherine Xie. I'm currently an

@@ -11,3 +11,36 @@
     color: #53728E;
     position: relative;
 }
+
+.gallery {
+	display: flex;
+	padding: 2px;
+	transition: .3s;
+    position: absolute;
+}
+
+.gallery-column {
+	display: flex;
+	flex-direction: column;
+	width: 33.333%;
+	
+}
+
+.gallery-image-container {
+    margin: 2px;
+    overflow: hidden;
+}
+
+
+.gallery-image {
+    display: block;
+	width: 100%;
+	transition: .3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+    /* filter: grayscale(1); */
+    filter: hue-rotate(180deg); 
+}
+
