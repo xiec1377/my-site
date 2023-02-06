@@ -27,3 +27,20 @@
     padding: 30px;
 
 }
+
+.plat-container {
+    display: flex;
+	flex-direction: row;
+	width: 60% !important;
+    position: absolute;
+}
+
+.plat-icon-container {
+    margin: 2px;
+    background-color: red;
+}
+
+.plat-icon {
+    display: block;
+	transition: .3s;
+}

@@ -41,10 +41,7 @@ export default function AboutMe() {
         </div>
 
         <div id="about-me-page">
-          <img
-            src={require('./interview.jpg')}
-            className="profile-pic"
-          />
+          <img src={require('./interview.jpg')} className="profile-pic" />
           <div className="about-me-desc">
             Welcome to my page! I'm Catherine Xie. I'm currently an
             undergraduate student in my 3A term of my Bachelor of Computer
@@ -61,6 +58,26 @@ export default function AboutMe() {
             UX/UI mockups in Figma, explore my growing passion for digital art
             and go to the gym.
           </div>
+        </div>
+        <div className="plat-container">
+          <a
+            href="https://www.linkedin.com/in/catherine-xie-101377/"
+            className="plat-icon-container"
+          >
+            <img src={require('./linkedin.png')} className="plat-icon" />
+          </a>
+          <a href="https://github.com/xiec1377" className="plat-icon-container">
+            <img src={require('./github.png')} className="plat-icon" />{' '}
+          </a>
+          <a href="./resume.png" download className="plat-icon-container">
+            <img src={require('./resume.png')} className="plat-icon" />
+          </a>
+          <a
+            href="catherinexie2014@gmail.com?subject='Hello from Abstract!'&body='Just popped in to say hello'"
+            className="plat-icon-container"
+          >
+            <img src={require('./mail.png')} className="plat-icon" />{' '}
+          </a>
         </div>
       </div>
     </>

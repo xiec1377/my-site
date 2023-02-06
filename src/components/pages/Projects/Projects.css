@@ -25,3 +25,35 @@
 .img-link {
     position: absolute;
 } */
+
+.gallery {
+	display: flex;
+	padding: 0px;
+    margin-top: 30px;
+	transition: .3s;
+    position: absolute;
+}
+
+.gallery-column {
+	display: flex;
+	flex-direction: column;
+	width: 60% !important;
+	
+}
+
+.gallery-image-container {
+    margin: 2px;
+    overflow: hidden;
+}
+
+
+.gallery-image {
+    display: block;
+	width: 100%;
+	transition: .3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+

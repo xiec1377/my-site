@@ -41,7 +41,7 @@ function Home() {
         <h1 id="welcome-title">welcome.</h1>
 
         <div className="home-desc">
-          Welcome to my page! Click on a page on the right to get started
+          Welcome to my page! Click on a page on the right to get started.
         </div>
       </div>
     </>

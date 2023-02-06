@@ -107,7 +107,7 @@ p {
 }
 
 .nav-item:hover {
-    border-bottom: 1px solid #53728E;
+    /* border-bottom: 1px solid #53728E; */
     background-color: #53728E;
     font-size: 15px;
 }

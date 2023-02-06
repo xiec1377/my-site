@@ -1,8 +1,7 @@
 .hobby-desc {
-    margin-top: 50px;
     padding: 15px;
     background-color: transparent;
-    width: 60%; /*calc(70% - 265px); */
+    width: calc(100% - 70px); 
     border: 1px dashed #53728E;
     font-weight: 400;
     font-size: 15px;
@@ -10,19 +9,25 @@
     text-decoration-line: underline;
     color: #53728E;
     position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
 }
+
+
 
 .gallery {
 	display: flex;
 	padding: 2px;
 	transition: .3s;
     position: absolute;
+    gap: 0px;
 }
 
 .gallery-column {
 	display: flex;
 	flex-direction: column;
 	width: 33.333%;
+    column-gap: 0px;
 	
 }
 

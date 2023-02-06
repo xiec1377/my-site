@@ -40,37 +40,52 @@ export default function Projects() {
         <div className="page-title">
           <h1>projects.</h1>
         </div>
-        <ProjectGallery />
+        {/* <div className="hobby-desc">
+          In my free time, I dabble in digital art, 3D-modeling and knitting.
+        </div> */}
+        <div className="gallery">
+          <div className="gallery-column">
+            <a
+              href="https://devpost.com/software/pitcheasy"
+              className="gallery-image-container"
+            >
+              <img
+                src={require('./sales_pitch_generator.jpg')}
+                alt="sales-pitch-generator"
+                className="gallery-image gray"
+              />
+            </a>
+            <a
+              href="https://devpost.com/software/north-arcadia"
+              className="gallery-image-container"
+            >
+              <img
+                src={require('./north_arcadia.jpg')}
+                alt="north-arcadia"
+                className="gallery-image"
+              />
+            </a>
+          </div>
+          <div className="gallery-column">
+            <a
+              href="https://devpost.com/software/search-with-tech"
+              className="gallery-image-container"
+            >
+              <img
+                src={require('./search_with_tech.jpg')}
+                alt="search-with-tech"
+                className="gallery-image"
+              />
+            </a>
+            <a
+              href="https://github.com/xiec1377/my-runner-project"
+              className="gallery-image-container runner"
+            >
+              <img src={require('./runner.png')} className="gallery-image" />
+            </a>
+          </div>
+        </div>
       </div>
     </>
   )
-}
-
-{
-  /* <a
-href="https://devpost.com/software/north-arcadia"
-className="img-link"
->
-<img
-  src={require('./north_arcadia.jpg')}
-  alt="north-arcadia"
-  className="gallery-item-1"
-/>
-</a>
-<div className="gallery">
-<div></div>
-<a href="https://devpost.com/software/north-arcadia">
-  <img
-    src={require('./search_with_tech.jpg')}
-    alt="search-with-tech"
-    className="gallery-item-1"
-  />
-</a>
-<a href="https://devpost.com/software/north-arcadia">
-  <img
-    src={require('./sales_pitch_generator.jpg')}
-    alt="sales-pitch-generator"
-    className="gallery-item-1"
-  />
-</a> */
 }

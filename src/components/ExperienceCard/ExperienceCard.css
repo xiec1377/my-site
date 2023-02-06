@@ -15,7 +15,8 @@
 .card-container:hover {
     /* border: 1px solid #53728E; */
   transition: 200ms ease-in-out;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0), #8EB8DE); */
 }
 
 
@@ -24,15 +25,16 @@
     padding-top: 20px;
 }
 
-.desc {
-}
 
 .empire-life-logo {
     width: 100px;
     height: auto;
     /* clip-path: circle(50px at center); */
     border-radius: 50%;
-    border: 5px solid #Fff;
+}
+
+.empire-life-logo:hover {
+    border: 5px dashed black;
 }
 
 .bofa-logo {
@@ -40,7 +42,6 @@
     height: auto;
     /* clip-path: circle(70px at center); */
     border-radius: 50%;
-    border: 5px solid #Fff;
 }
 
 .darwynn-logo {
@@ -48,14 +49,12 @@
     height: auto;
     /* clip-path: circle(50px at center); */
     border-radius: 50%;
-    border: 5px solid #Fff;
 }
 
 .absolute-logo {
     width: 100px;
     height: auto;
      clip-path: circle(50px at center); 
-    border: 5px solid #Fff;
 }
 
 h2 {
@@ -94,7 +93,6 @@ ul {
 b {
     color: #8EB8DE;
 }
-
 
 
 
