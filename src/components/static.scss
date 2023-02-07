@@ -9,10 +9,19 @@
 
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: slideInLeft ease 2s, gradient 10s ease infinite;
 
 }
 
+ 
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -68,11 +77,16 @@ h1 {
     color: #fff;
     font-size: 12px;
     transition: background-color 300ms ease-out 100ms;
+
+    display: flex;
+    flex-direction: row;
+
 }
 
 p {
     margin-bottom: 0px;
     margin-top: 7px;
+    margin-left: 15px;
 }
 
 .nav-item:hover {

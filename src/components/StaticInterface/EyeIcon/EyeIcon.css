@@ -1,4 +1,4 @@
-/* #645EAD;
+/* #645EAD; */
 body { background: #121725; }
 
 #icon-eye {
@@ -10,6 +10,8 @@ body { background: #121725; }
   /* set the icon color */
   color: white;
 }
+
+
 
 /* for other color settings, use the svg's ids */
 /* 
@@ -31,104 +33,58 @@ button {
 
 button:hover { cursor: pointer; }
 
-.eye-open button::after { 
-    content: "Close"; 
+.eye-open button::after { content: "Close"; }
+
+.eye-open:hover {
+  background-color: red;
 }
 
 .eye-close button::after { content: "Open"; }
 
-#eye {
-    /* set these to blink faster/slower */
-    --duration-blink: .2s;
-    --duration-lashes: .2s;
-    
-    /* calculated and fixed vars */
-    --delay-lashes: var(--duration-blink);
-    --duration-pupil: .1s;
-    --delay-pupil: calc(var(--duration-blink)*2/3);
-  }
-
-  #eye-bottom, #eye-top { stroke-linecap: round; }
-
-  #eye-top, #eye-lashes { transition: var(--duration-blink) ease-in; }
-
-  #eye-pupil {
-    opacity: 0;
-    transition: opacity var(--duration-pupil) var(--delay-pupil) ease;
-  }
-
-  /* open state */
-  .eye-open #eye-top,
-  .eye-open #eye-lashes {
-    transform: rotateX(.5turn);
-    animation: scaleUp var(--duration-lashes) var(--delay-lashes) ease-in-out;
-  }
-
-  .eye-open #eye-pupil { opacity: 1; }
-
-  /* close state */
-  .eye-close #eye-lashes { animation: scaleDown var(--duration-lashes) var(--duration-blink) ease-in-out; }
-
-  .eye-close #eye-pupil { opacity: 0; }
-
-  /* keyfranes */
-  @keyframes scaleUp {
-    50% { transform: rotateX(.5turn) scaleY(1.15); }
-    to { transform: rotateX(.5turn) scaleY(1); }
-  }
-
-  @keyframes scaleDown {
-    50% { transform: scaleY(1.15); }
-    to { transform: scaleY(1); }
-  }
 
 
-  #eye {
-    /* set these to blink faster/slower */
-    --duration-blink: .2s;
-    --duration-lashes: .2s;
-    
-    /* calculated and fixed vars */
-    --delay-lashes: var(--duration-blink);
-    --duration-pupil: .1s;
-    --delay-pupil: calc(var(--duration-blink)*2/3);
-  }
+        #eye {
+          /* set these to blink faster/slower */
+          --duration-blink: .2s;
+          --duration-lashes: .2s;
+          
+          /* calculated and fixed vars */
+          --delay-lashes: var(--duration-blink);
+          --duration-pupil: .1s;
+          --delay-pupil: calc(var(--duration-blink)*2/3);
+        }
 
-  #eye-bottom, #eye-top { stroke-linecap: round; }
+        #eye-bottom, #eye-top { stroke-linecap: round; }
 
-  #eye-top, #eye-lashes { transition: var(--duration-blink) ease-in; }
+        #eye-top, #eye-lashes { transition: var(--duration-blink) ease-in; }
 
-  #eye-pupil {
-    opacity: 0;
-    transition: opacity var(--duration-pupil) var(--delay-pupil) ease;
-  }
+        #eye-pupil {
+          opacity: 0;
+          transition: opacity var(--duration-pupil) var(--delay-pupil) ease;
+        }
 
-  /* open state */
-  .eye-open #eye-top,
-  .eye-open #eye-lashes {
-    transform: rotateX(.5turn);
-    animation: scaleUp var(--duration-lashes) var(--delay-lashes) ease-in-out;
-  }
+        /* open state */
+        .eye-open #eye-top,
+        .eye-open #eye-lashes {
+          transform: rotateX(.5turn);
+          animation: scaleUp var(--duration-lashes) var(--delay-lashes) ease-in-out;
+        }
 
-  .eye-open #eye-pupil { opacity: 1; }
+        .eye-open #eye-pupil { opacity: 1; }
 
-  /* close state */
-  .eye-close #eye-lashes { animation: scaleDown var(--duration-lashes) var(--duration-blink) ease-in-out; }
+        /* close state */
+        .eye-close #eye-lashes { animation: scaleDown var(--duration-lashes) var(--duration-blink) ease-in-out; }
 
-  .eye-close #eye-pupil { opacity: 0; }
+        .eye-close #eye-pupil { opacity: 0; }
 
-  /* keyfranes */
-  @keyframes scaleUp {
-    50% { transform: rotateX(.5turn) scaleY(1.15); }
-    to { transform: rotateX(.5turn) scaleY(1); }
-  }
+        /* keyfranes */
+        @keyframes scaleUp {
+          50% { transform: rotateX(.5turn) scaleY(1.15); }
+          to { transform: rotateX(.5turn) scaleY(1); }
+        }
 
-  @keyframes scaleDown {
-    50% { transform: scaleY(1.15); }
-    to { transform: scaleY(1); }
-  } */
-
-  .eye-icon {
-    position: relative;
-    margin-top: 100px;
-  }
+        @keyframes scaleDown {
+          50% { transform: scaleY(1.15); }
+          to { transform: scaleY(1); }
+        }
+  

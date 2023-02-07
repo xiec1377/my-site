@@ -32,9 +32,3 @@ function EyeIcon() {
 
 export default EyeIcon
 
-{
-  /* <<div style={{ color: 'red' }}>
-      <HiOutlineEye size={100} />
-    </div>
-) */
-}

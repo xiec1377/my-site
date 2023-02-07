@@ -18,6 +18,7 @@ import EyeIcon from './components/StaticInterface/EyeIcon/EyeIcon'
 function App() {
   return (
     <>
+      {/* <EyeIcon /> */}
       <Router>
         <StaticInterface />
         <Routes>

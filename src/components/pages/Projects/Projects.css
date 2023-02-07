@@ -47,7 +47,7 @@
 }
 
 
-.gallery-image {
+.gallery-image  {
     display: block;
 	width: 100%;
 	transition: .3s;
@@ -57,3 +57,11 @@
     transform: scale(1.1);
 }
 
+
+.gallery-caption {
+    position: absolute;
+    display: block;
+	width: 100%;
+	transition: .3s;
+    margin-bottom: 100px;
+}

@@ -6,6 +6,7 @@ import '../../static.scss'
 import { AiFillHome } from 'react-icons/ai'
 import { IoInformationCircle } from 'react-icons/io5'
 import { MdOutlineWork, MdLightbulb, MdBrush } from 'react-icons/md'
+import { BsEye, BsEyeSlash } from 'react-icons/bs'
 
 export default function AboutMe() {
   function github() {
@@ -19,10 +20,13 @@ export default function AboutMe() {
           <a href="/" className="nav-item">
             <div className="nav-icon-container">
               <div className="nav-icon">
-                <AiFillHome size={30} color={'#383838'}/>
+                <AiFillHome size={30} color={'#383838'} />
               </div>
             </div>
             <p>home</p>
+            <div className="eye-icon">
+              <BsEyeSlash size={20} color={'#D9D9D9'} />
+            </div>
           </a>
           <a href="/about-me" className="nav-item nav-item-selected">
             <div className="nav-icon">
@@ -31,6 +35,9 @@ export default function AboutMe() {
               </div>
             </div>
             <p>about me</p>
+            <div className="eye-icon">
+              <BsEye size={20} color={'#D9D9D9'} />
+            </div>
           </a>
 
           <a href="/experiences" className="nav-item">
@@ -40,6 +47,9 @@ export default function AboutMe() {
               </div>
             </div>
             <p>experiences</p>
+            <div className="eye-icon">
+              <BsEyeSlash size={20} color={'#D9D9D9'} />
+            </div>
           </a>
 
           <a href="/projects" className="nav-item">
@@ -49,6 +59,9 @@ export default function AboutMe() {
               </div>
             </div>
             <p>projects</p>
+            <div className="eye-icon">
+              <BsEyeSlash size={20} color={'#D9D9D9'} />
+            </div>
           </a>
 
           <a href="/hobbies" className="nav-item">
@@ -58,6 +71,9 @@ export default function AboutMe() {
               </div>
             </div>
             <p>hobbies</p>
+            <div className="eye-icon">
+              <BsEyeSlash size={20} color={'#D9D9D9'} />
+            </div>
           </a>
         </div>
       </nav>
@@ -71,6 +87,7 @@ export default function AboutMe() {
             <img
               src={require('./interview.jpg')}
               className="profile-container"
+              alt="Catherine in suit"
             />{' '}
             <div className="about-me-desc">
               Welcome to my page! I'm Catherine Xie. I'm currently an
@@ -112,9 +129,6 @@ export default function AboutMe() {
           >
             <img src={require('./mail.png')} className="plat-icon" />{' '}
           </a>
-        </div>
-        <div className="home-icon">
-          <AiFillHome size={60} color={'red'} />
         </div>
       </div>
     </>
