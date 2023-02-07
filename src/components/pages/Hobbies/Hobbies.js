@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../Footer/Footer'
 import StaticInterface from '../../StaticInterface/StaticInterface'
-import '../../staticCSS.css'
+import '../../static.scss'
 import './Hobbies.css'
 
 export default function Hobbies() {

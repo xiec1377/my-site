@@ -4,7 +4,7 @@ import NavBar from '../../NavBar/NavBar'
 import StaticInterface from '../../StaticInterface/StaticInterface'
 import TextBox from '../../TextBox/TextBox'
 import './Home.css'
-import '../../staticCSS.css'
+import '../../static.scss'
 
 function Home() {
   return (
