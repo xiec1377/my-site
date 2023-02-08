@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import CloseBar from './components/CloseBar/CloseBar'
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar/NavBarHome'
 import Footer from './components/Footer/Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './components/pages/Home/Home'
@@ -23,7 +23,7 @@ function App() {
         <StaticInterface />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<AboutMe />} />
+          {/* <Route path="/about-me" element={<AboutMe />} /> */}
           <Route path="/experiences" element={<Experiences />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />

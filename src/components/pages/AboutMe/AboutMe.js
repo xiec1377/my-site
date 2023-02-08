@@ -14,7 +14,7 @@ export default function AboutMe() {
   }
   return (
     <>
-      <div className="title">pages</div>
+      {/* <div className="title">pages</div>
       <nav className="navbar">
         <div className="navbar-container">
           <a href="/" className="nav-item">
@@ -130,7 +130,7 @@ export default function AboutMe() {
             <img src={require('./mail.png')} className="plat-icon" />{' '}
           </a>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

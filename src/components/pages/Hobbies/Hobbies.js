@@ -3,45 +3,19 @@ import Footer from '../../Footer/Footer'
 import StaticInterface from '../../StaticInterface/StaticInterface'
 import '../../static.scss'
 import './Hobbies.css'
+import NavBarHobbies from '../../NavBar/NavBarHobbies'
 
 export default function Hobbies() {
   return (
     <>
-      <div className="title">pages</div>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <a href="/" className="nav-item">
-            <div className="nav-icon"></div>
-            <p>home</p>
-          </a>
-          <a href="/about-me" className="nav-item">
-            <div className="nav-icon"></div>
-            <p>about me</p>
-          </a>
-
-          <a href="/experiences" className="nav-item">
-            <div className="nav-icon"></div>
-            <p>experiences</p>
-          </a>
-
-          <a href="/projects" className="nav-item">
-            <div className="nav-icon"></div>
-            <p>projects</p>
-          </a>
-
-          <a href="/hobbies" className="nav-item nav-item-selected">
-            <div className="nav-icon"></div>
-            <p>hobbies</p>
-          </a>
-        </div>
-      </nav>
+      <NavBarHobbies />
       <div className="page">
         <div className="page-title">
           <h1>hobbies.</h1>
         </div>
         <div className="hobby-desc">
           In my free time, I dabble in digital art, 3D-modeling and hip-hop
-          dance. I also like taking pictures of myself hehe. 
+          dance. I also like taking pictures of myself hehe.
         </div>
         <div className="gallery">
           <div className="gallery-column">

@@ -71,12 +71,12 @@
     background-color: red;
 }
 
-.eye-icon {
+/* .eye-icon {
     margin-left: 175px;
     margin-top: 5px;
     position: absolute;
     float: right;
-}
+} */
 
 ::-webkit-scrollbar {
     width: 10px;
