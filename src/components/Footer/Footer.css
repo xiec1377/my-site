@@ -1,12 +1,22 @@
 .footer-container {
-    background-color: #383838;
+    /* background-color: #383838;
     padding: 15px;
     display: flex;
     justify-content: center;
-    bottom: -30%;
-    position: absolute;
-    width: calc(100% - 265px);
+    width: 100%;
     z-index: -100;
+    bottom: 0%; */
+
+    text-align: center;
+    padding: 15px;
+    background-color: #383838;
+    color: white;
+
+    width: calc(100% + 70px);
+    margin-left: -50px;
+    margin-top: 30px;
+    bottom: 0;
+    order: 2;
 }
 
 .copyright {

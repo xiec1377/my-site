@@ -79,6 +79,7 @@
   margin-top: 200px;
   margin-left: 50px;
   position: absolute;
+  animation: fadeInAnimation ease-out 1s;
 }
 
 
@@ -102,6 +103,7 @@
   position: fixed;
   bottom: -30%;
   right: 100px;
+  animation: fadeInAnimation ease-out 1s;
 }
 
 
@@ -128,11 +130,12 @@
   background-size: 200% auto;
   color: #fff;
   -webkit-text-fill-color: transparent;
-  animation: gradient 10s linear infinite;
+  animation: slideInLeft ease 2s, gradient 10s ease infinite;
   display: inline-block;
   position: absolute;
 
 }
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);

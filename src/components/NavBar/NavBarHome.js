@@ -8,6 +8,7 @@ import { AiFillHome } from 'react-icons/ai'
 import { IoInformationCircle } from 'react-icons/io5'
 import { MdOutlineWork, MdLightbulb, MdBrush } from 'react-icons/md'
 import { BsEye, BsEyeSlash } from 'react-icons/bs'
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 function NavBarHome() {
   return (
@@ -15,7 +16,7 @@ function NavBarHome() {
       <div className="title">pages</div>
       <nav className="navbar">
         <div className="navbar-container">
-          <a href="/" className="nav-item">
+          <a href="/" className="nav-item nav-item-selected">
             <div className="nav-icon">
               <div className="home-icon">
                 <AiFillHome size={30} color={'#383838'} />
@@ -74,6 +75,7 @@ function NavBarHome() {
             </div>
           </a>
         </div>
+        <SocialIcons />
       </nav>
     </>
   )

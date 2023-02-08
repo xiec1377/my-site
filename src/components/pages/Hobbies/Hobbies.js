@@ -17,52 +17,70 @@ export default function Hobbies() {
           In my free time, I dabble in digital art, 3D-modeling and hip-hop
           dance. I also like taking pictures of myself hehe.
         </div>
-        <div className="gallery">
-          <div className="gallery-column">
-            <div className="gallery-image-container">
-              <img src={require('./monsterC2.jpg')} className="gallery-image" />
+        <div className="page-container">
+          <div className="gallery">
+            <div className="gallery-column">
+              <div className="gallery-image-container">
+                <img
+                  src={require('./monsterC2.jpg')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img
+                  src={require('./portrait16.png')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img
+                  src={require('./vancouver.jpg')}
+                  className="gallery-image"
+                />
+              </div>
             </div>
-            <div className="gallery-image-container">
-              <img
-                src={require('./portrait16.png')}
-                className="gallery-image"
-              />
+            <div className="gallery-column">
+              <div className="gallery-image-container">
+                <img
+                  src={require('./portrait2.png')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img
+                  src={require('./havanaC1.jpg')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img
+                  src={require('./portrait6.png')}
+                  className="gallery-image"
+                />
+              </div>
             </div>
-            <div className="gallery-image-container">
-              <img src={require('./vancouver.jpg')} className="gallery-image" />
+            <div className="gallery-column">
+              <div className="gallery-image-container">
+                <img src={require('./face.gif')} className="gallery-image" />
+              </div>
+              <div className="gallery-image-container">
+                <img
+                  src={require('./photoshoot.png')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img
+                  src={require('./portrait15.png')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img src={require('./eye.png')} className="gallery-image" />
+              </div>
             </div>
           </div>
-          <div className="gallery-column">
-            <div className="gallery-image-container">
-              <img
-                src={require('./portrait15.png')}
-                className="gallery-image"
-              />
-            </div>
-            <div className="gallery-image-container">
-              <img src={require('./havanaC1.jpg')} className="gallery-image" />
-            </div>
-            <div className="gallery-image-container">
-              <img src={require('./portrait6.png')} className="gallery-image" />
-            </div>
-          </div>
-          <div className="gallery-column">
-            <div className="gallery-image-container">
-              <img src={require('./face.gif')} className="gallery-image" />
-            </div>
-            <div className="gallery-image-container">
-              <img
-                src={require('./photoshoot.png')}
-                className="gallery-image"
-              />
-            </div>
-            <div className="gallery-image-container">
-              <img src={require('./portrait2.png')} className="gallery-image" />
-            </div>
-            <div className="gallery-image-container">
-              <img src={require('./eye.png')} className="gallery-image" />
-            </div>
-          </div>
+          <Footer />
         </div>
       </div>
     </>

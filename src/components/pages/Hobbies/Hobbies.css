@@ -19,7 +19,6 @@
 	display: flex;
 	padding: 2px;
 	transition: .3s;
-    position: absolute;
     gap: 0px;
 }
 
@@ -48,4 +47,3 @@
     /* filter: grayscale(1); */
     filter: hue-rotate(180deg); 
 }
-

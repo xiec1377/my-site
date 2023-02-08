@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import './ExperienceCard.css'
 
 export default function ExperienceCard() {
@@ -154,6 +155,7 @@ export default function ExperienceCard() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

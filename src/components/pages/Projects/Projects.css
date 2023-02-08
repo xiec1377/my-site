@@ -31,7 +31,6 @@
 	padding: 0px;
     margin-top: 30px;
 	transition: .3s;
-    position: absolute;
 }
 
 .gallery-column {
@@ -64,4 +63,9 @@
 	width: 100%;
 	transition: .3s;
     margin-bottom: 100px;
+}
+
+
+.footer {
+
 }

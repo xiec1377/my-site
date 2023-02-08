@@ -39,29 +39,6 @@ function Home() {
             UX/UI mockups in Figma, explore my growing passion for digital art
             and go to the gym.
           </div>
-          <div className="plat-container">
-            <a
-              href="https://www.linkedin.com/in/catherine-xie-101377/"
-              className="plat-icon-container"
-            >
-              <img src={require('./linkedin.png')} className="plat-icon" />
-            </a>
-            <a
-              href="https://github.com/xiec1377"
-              className="plat-icon-container"
-            >
-              <img src={require('./github.png')} className="plat-icon" />{' '}
-            </a>
-            <a href="./resume.png" download className="plat-icon-container">
-              <img src={require('./resume.png')} className="plat-icon" />
-            </a>
-            <a
-              href="catherinexie2014@gmail.com?subject='Hello from Abstract!'&body='Just popped in to say hello'"
-              className="plat-icon-container"
-            >
-              <img src={require('./mail.png')} className="plat-icon" />{' '}
-            </a>
-          </div>
           {/* <svg viewBox="0 0 640 640">
             <path
               class="path"
