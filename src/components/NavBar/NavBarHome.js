@@ -38,7 +38,6 @@ function NavBarHome() {
               <BsEye size={20} color={'#D9D9D9'} />
             </div>
           </a> */}
-
           <a href="/experiences" className="nav-item">
             <div className="nav-icon">
               <div className="home-icon">
@@ -50,7 +49,6 @@ function NavBarHome() {
               <BsEyeSlash size={20} color={'#D9D9D9'} />
             </div>
           </a>
-
           <a href="/projects" className="nav-item">
             <div className="nav-icon">
               <div className="home-icon">
@@ -62,7 +60,6 @@ function NavBarHome() {
               <BsEyeSlash size={20} color={'#D9D9D9'} />
             </div>
           </a>
-
           <a href="/hobbies" className="nav-item">
             <div className="nav-icon">
               <div className="home-icon">
@@ -74,8 +71,10 @@ function NavBarHome() {
               <BsEyeSlash size={20} color={'#D9D9D9'} />
             </div>
           </a>
+          <div className="nav-item">
+            <SocialIcons />{' '}
+          </div>{' '}
         </div>
-        <SocialIcons />
       </nav>
     </>
   )

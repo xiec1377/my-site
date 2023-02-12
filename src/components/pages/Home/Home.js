@@ -26,18 +26,6 @@ function Home() {
             Welcome to my page! I'm Catherine Xie. I'm currently an
             undergraduate student in my 3A term of my Bachelor of Computer
             Science (Honours Co-op) at the University of Waterloo.
-            <br />
-            <br /> I am an effervescent and creative student with programming
-            and problem-solving experience who seeks new growth opportunities in
-            computer science. I like to venture out to different technological
-            disciplines such as full-stack development, UX/UI development and
-            project management. My past experiences include working with C, C++,
-            Python, JavaScript, SQL, HTML/CSS, ReactJS, AngularJS, JasmineJS,
-            Linux OS to name a few. Some of my side projects include a stock
-            trading simulator and a job search curator. In my free time, I like
-            to make 3D models in Blender, develop 3D games in Unity, design
-            UX/UI mockups in Figma, explore my growing passion for digital art
-            and go to the gym.
           </div>
           {/* <svg viewBox="0 0 640 640">
             <path
@@ -72,6 +60,20 @@ function Home() {
         400.41L69.59 414.19"
             />
           </svg> */}
+        </div>
+
+        <div>
+          I am an effervescent and creative student with programming and
+          problem-solving experience who seeks new growth opportunities in
+          computer science. I like to venture out to different technological
+          disciplines such as full-stack development, UX/UI development and
+          project management. My past experiences include working with C, C++,
+          Python, JavaScript, SQL, HTML/CSS, ReactJS, AngularJS, JasmineJS,
+          Linux OS to name a few. Some of my side projects include a stock
+          trading simulator and a job search curator. In my free time, I like to
+          make 3D models in Blender, develop 3D games in Unity, design UX/UI
+          mockups in Figma, explore my growing passion for digital art and go to
+          the gym.{' '}
         </div>
       </div>
     </>

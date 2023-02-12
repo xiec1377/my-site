@@ -24,15 +24,19 @@ export default function Projects() {
                 href="https://devpost.com/software/pitcheasy"
                 className="gallery-image-container"
               >
+                <div className="image">
+                  <div className="gallery-caption">
+                    <h3>Pitch Perfect</h3>
+                    <p>
+                      Application that generates customized stock pitch
+                    </p>{' '}
+                  </div>
+                </div>
                 <img
                   src={require('./sales_pitch_generator.jpg')}
                   alt="sales-pitch-generator"
                   className="gallery-image"
                 />
-                <div className="gallery-caption">
-                  <h3>Pitch Perfect</h3>
-                  <p>Application that generates customized stock pitch</p>{' '}
-                </div>
               </a>
               <a
                 href="https://devpost.com/software/north-arcadia"

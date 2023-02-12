@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialIcons from '../SocialIcons/SocialIcons'
 import './SideStaticBar.css'
 
 export default function SideStaticBar() {

@@ -116,3 +116,34 @@ ul {
 .page-container { 
     position: absolute;
 }
+
+.plat-container {
+   width: 200px;
+        background-color: transparent;
+        padding: 15px;
+        border-bottom: 1px solid #484848;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: 50px auto auto auto;
+        grid-gap: 0px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+
+    
+}
+
+.plat-icon-container {
+    padding: 0px;
+    margin: 2px;
+    background-color: red;
+    
+}
+
+.plat-icon {
+    display: block;
+	transition: .3s;
+    cursor: pointer;
+    width: 50px;
+    margin: 0px;
+}
