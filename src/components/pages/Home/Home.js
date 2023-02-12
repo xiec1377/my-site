@@ -9,6 +9,7 @@ import { AiFillHome } from 'react-icons/ai'
 import { IoInformationCircle } from 'react-icons/io5'
 import { MdOutlineWork, MdLightbulb, MdBrush } from 'react-icons/md'
 import { BsEye, BsEyeSlash } from 'react-icons/bs'
+import { FaRegSquare } from 'react-icons/fa'
 import NavBarHome from '../../NavBar/NavBarHome'
 
 function Home() {
@@ -34,18 +35,26 @@ function Home() {
           </div>
         </div>
         <div className="bottom">
-          <div class="long-desc">
-            I am an effervescent and creative student with programming and
-            problem-solving experience who seeks new growth opportunities in
-            computer science. I like to venture out to different technological
-            disciplines such as full-stack development, UX/UI development and
-            project management. My past experiences include working with C, C++,
-            Python, JavaScript, SQL, HTML/CSS, ReactJS, AngularJS, JasmineJS,
-            Linux OS to name a few. Some of my side projects include a stock
-            trading simulator and a job search curator. In my free time, I like
-            to make 3D models in Blender, develop 3D games in Unity, design
-            UX/UI mockups in Figma, explore my growing passion for digital art
-            and go to the gym.{' '}
+          {/* <FaRegSquare size={20} color={'red'}/> */}
+          <div className="square-container">
+            <div className="square square-1"></div>
+            <div className="square square-2"></div>
+            <div class="long-desc">
+              I am an effervescent and creative student with programming and
+              problem-solving experience who seeks new growth opportunities in
+              computer science. I like to venture out to different technological
+              disciplines such as full-stack development, UX/UI development and
+              project management. My past experiences include working with C,
+              C++, Python, JavaScript, SQL, HTML/CSS, ReactJS, AngularJS,
+              JasmineJS, Linux OS to name a few. Some of my side projects
+              include a stock trading simulator and a job search curator. In my
+              free time, I like to make 3D models in Blender, develop 3D games
+              in Unity, design UX/UI mockups in Figma, explore my growing
+              passion for digital art and go to the gym.{' '}
+            </div>
+
+            <div className="square square-3"></div>
+            <div className="square square-4"></div>
           </div>
         </div>
 
