@@ -20,7 +20,7 @@ function Home() {
           <div id="home-page"></div>
           <div className="interview-pic-container">
             <div className="interview-pic-wrapper">
-              <img src={require('./interview.png')} id="interview-pic"/>
+              <img src={require('./interview.png')} id="interview-pic" />
             </div>
           </div>
           <div className="block">
@@ -48,21 +48,14 @@ function Home() {
             and go to the gym.{' '}
           </div>
         </div>
-      </div>
-    </>
-  )
-}
 
-export default Home
-
-{
-  /* <svg viewBox="0 0 640 640">
-            <path
-              class="path"
-              fill="white"
-              stroke="black"
-              stroke-width="4"
-              d="M70.74 411.89L91.42 411.89L112.09 411.89L114.39 
+        <svg viewBox="0 0 640 640">
+          <path
+            class="path"
+            fill="white"
+            stroke="black"
+            stroke-width="4"
+            d="M70.74 411.89L91.42 411.89L112.09 411.89L114.39 
         391.22L114.39 370.54L110.95 349.86L114.39 329.19L115.54 
         308.51L115.54 287.84L125.88 270.61L146.55 269.46L167.23 
         269.46L176.42 287.84L172.97 308.51L172.97 329.19L172.97 
@@ -87,6 +80,13 @@ export default Home
         231.55L50.07 252.23L47.77 274.05L47.77 295.88L46.62 
         317.7L45.47 338.38L45.47 360.2L48.92 380.88L54.66 
         400.41L69.59 414.19"
-            />
-          </svg> */
+          />
+        </svg>
+
+        <Footer />
+      </div>
+    </>
+  )
 }
+
+export default Home
