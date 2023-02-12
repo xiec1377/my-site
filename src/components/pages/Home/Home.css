@@ -7,16 +7,16 @@
 }
 
 
-.home-desc {
-    margin-left: 60px;
-    margin-top: 380px;
+.short-desc {
+    margin-left: 50px;
+    margin-top: 360px;
     padding: 15px;
     background-color: transparent;
     width: 50%;
     border: 2px dashed #8EB8DE;
     font-weight: 400;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 20px;
     text-decoration-line: underline;
     text-decoration-color: #8EB8DE;
     text-decoration-thickness: 2px;
@@ -25,6 +25,28 @@
 
 
   }
+
+  .long-desc {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25%;
+    padding: 15px;
+    background-color: transparent;
+    width: calc(100% - 130px); 
+    border: 2px dashed #8EB8DE;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: #8EB8DE;
+    text-decoration-thickness: 2px;
+    color: #53728E;
+    position: absolute;
+
+
+  }
+
+
 
 
   
@@ -91,17 +113,50 @@
   }
 }
 
-.interview-pic {
-  width: 50%;
-  min-width: 800px;
-  position: fixed;
-  bottom: -30%;
-  right: 100px;
+
+
+
+.interview-pic-container {
+  position: absolute;
+  left: 30%;
   animation: fadeInAnimation ease-out 1s;
+  overflow: hidden;
+  width: 90vw;
+  min-width: 90vw;
+  height: 100vh;
+  margin-top: -20px;
+
 }
 
+.interview-pic-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: -35%;
 
-.page {
+}
+.interview-pic-wrapper > img {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 800px;
+  height: 50%;
+  bottom: 0%;
+  transition: .3s;
+  
+  /* backdrop-filter: blur(5px); */
+}
+
+.interview-pic {
+}
+
+.interview-pic-wrapper > img:hover {
+  transform: scale(1.1);
+}
+
+.home {
+  display: flex !important;
+  flex-direction: column;
+  position: relative;
 
 }
 
@@ -153,5 +208,16 @@
 
 
 .block {
+  position: relative;
 }
 
+
+.top {
+  position: relative;
+}
+
+.bottom {
+  margin-top: 40%;
+  background-color: blue;
+  margin-bottom: 50px;
+}

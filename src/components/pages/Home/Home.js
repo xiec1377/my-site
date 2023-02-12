@@ -15,19 +15,48 @@ function Home() {
   return (
     <>
       <NavBarHome />
-      <div className="page">
-        <div id="home-page"></div>
-        <img src={require('./interview.png')} className="interview-pic" />
-
-        <div className="block">
-          <h1 id="welcome-title">catherine</h1>
-
-          <div className="home-desc">
-            Welcome to my page! I'm Catherine Xie. I'm currently an
-            undergraduate student in my 3A term of my Bachelor of Computer
-            Science (Honours Co-op) at the University of Waterloo.
+      <div className="page home">
+        <div className="top">
+          <div id="home-page"></div>
+          <div className="interview-pic-container">
+            <div className="interview-pic-wrapper">
+              <img src={require('./interview.png')} id="interview-pic"/>
+            </div>
           </div>
-          {/* <svg viewBox="0 0 640 640">
+          <div className="block">
+            <h1 id="welcome-title">catherine</h1>
+
+            <div className="short-desc">
+              Welcome to my page! I'm Catherine Xie. I'm currently an
+              undergraduate student in my 3A term of my Bachelor of Computer
+              Science (Honours Co-op) at the University of Waterloo.
+            </div>
+          </div>
+        </div>
+        <div className="bottom">
+          <div class="long-desc">
+            I am an effervescent and creative student with programming and
+            problem-solving experience who seeks new growth opportunities in
+            computer science. I like to venture out to different technological
+            disciplines such as full-stack development, UX/UI development and
+            project management. My past experiences include working with C, C++,
+            Python, JavaScript, SQL, HTML/CSS, ReactJS, AngularJS, JasmineJS,
+            Linux OS to name a few. Some of my side projects include a stock
+            trading simulator and a job search curator. In my free time, I like
+            to make 3D models in Blender, develop 3D games in Unity, design
+            UX/UI mockups in Figma, explore my growing passion for digital art
+            and go to the gym.{' '}
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Home
+
+{
+  /* <svg viewBox="0 0 640 640">
             <path
               class="path"
               fill="white"
@@ -59,25 +88,5 @@ function Home() {
         317.7L45.47 338.38L45.47 360.2L48.92 380.88L54.66 
         400.41L69.59 414.19"
             />
-          </svg> */}
-        </div>
-
-        <div>
-          I am an effervescent and creative student with programming and
-          problem-solving experience who seeks new growth opportunities in
-          computer science. I like to venture out to different technological
-          disciplines such as full-stack development, UX/UI development and
-          project management. My past experiences include working with C, C++,
-          Python, JavaScript, SQL, HTML/CSS, ReactJS, AngularJS, JasmineJS,
-          Linux OS to name a few. Some of my side projects include a stock
-          trading simulator and a job search curator. In my free time, I like to
-          make 3D models in Blender, develop 3D games in Unity, design UX/UI
-          mockups in Figma, explore my growing passion for digital art and go to
-          the gym.{' '}
-        </div>
-      </div>
-    </>
-  )
+          </svg> */
 }
-
-export default Home

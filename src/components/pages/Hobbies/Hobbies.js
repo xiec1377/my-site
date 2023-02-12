@@ -32,11 +32,20 @@ export default function Hobbies() {
                   className="gallery-image"
                 />
               </div>
-              <div className="gallery-image-container">
+              {/* <div className="gallery-image-container">
                 <img
                   src={require('./vancouver.jpg')}
                   className="gallery-image"
                 />
+              </div> */}
+              <div className="gallery-image-container">
+                <img
+                  src={require('./rewrite_thumbnail.png')}
+                  className="gallery-image"
+                />
+              </div>
+              <div className="gallery-image-container">
+                <img src={require('./eye.png')} className="gallery-image" />
               </div>
             </div>
             <div className="gallery-column">
@@ -76,7 +85,7 @@ export default function Hobbies() {
                 />
               </div>
               <div className="gallery-image-container">
-                <img src={require('./eye.png')} className="gallery-image" />
+                <img src={require('./motive_thumbnail.png')} className="gallery-image" />
               </div>
             </div>
           </div>
