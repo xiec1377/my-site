@@ -28,7 +28,8 @@ export default function Projects() {
                   <div className="gallery-caption">
                     <h3>Pitch Perfect</h3>
                     <p>
-                      Application that generates customized stock pitch
+                      Application that generates customized stock pitch based on
+                      user's inputs.
                     </p>{' '}
                   </div>
                 </div>
@@ -42,6 +43,15 @@ export default function Projects() {
                 href="https://devpost.com/software/north-arcadia"
                 className="gallery-image-container"
               >
+                <div className="image">
+                  <div className="gallery-caption">
+                    <h3>North Arcadia</h3>
+                    <p>
+                      Website that features a collection of classic arcade games
+                      (platform jump, flappy bird, pong, snake).{' '}
+                    </p>{' '}
+                  </div>
+                </div>
                 <img
                   src={require('./north_arcadia.jpg')}
                   alt="north-arcadia"
@@ -54,6 +64,16 @@ export default function Projects() {
                 href="https://devpost.com/software/search-with-tech"
                 className="gallery-image-container"
               >
+                <div className="image">
+                  <div className="gallery-caption">
+                    <h3>Search With Tech</h3>
+                    <p>
+                      Application that curates a list of job openings from
+                      popular job search sites based on user's location and
+                      position inputs.{' '}
+                    </p>{' '}
+                  </div>
+                </div>
                 <img
                   src={require('./search_with_tech.jpg')}
                   alt="search-with-tech"
@@ -64,6 +84,15 @@ export default function Projects() {
                 href="https://github.com/xiec1377/my-runner-project"
                 className="gallery-image-container runner"
               >
+                <div className="image">
+                  <div className="gallery-caption">
+                    <h3>Zombie Runner</h3>
+                    <p>
+                      3D runner game where character dodges obstacles and
+                      zombies.
+                    </p>{' '}
+                  </div>
+                </div>{' '}
                 <img src={require('./runner.png')} className="gallery-image" />
               </a>
             </div>
