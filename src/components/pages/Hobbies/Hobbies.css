@@ -30,6 +30,11 @@
 	
 }
 
+.gallery-column > div.gallery-image-container {
+    margin-bottom: -2px;
+}
+
+
 .gallery-image-container {
     margin: 2px;
     overflow: hidden;

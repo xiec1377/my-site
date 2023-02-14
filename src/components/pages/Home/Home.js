@@ -25,12 +25,15 @@ function Home() {
             </div>
           </div>
           <div className="block">
-            <h1 id="welcome-title">catherine</h1>
+            <div className="intro-text">
+              <h1 id="welcome-title">catherine</h1>
+              <p id="motto">Creative. Ardent. Tenacious. </p>
 
-            <div className="short-desc">
-              Welcome to my page! I'm Catherine Xie. I'm currently an
-              undergraduate student in my 3A term of my Bachelor of Computer
-              Science (Honours Co-op) at the University of Waterloo.
+              <div className="short-desc">
+                Welcome to my page! I'm Catherine Xie. I'm currently an
+                undergraduate student in my 3A term of my Bachelor of Computer
+                Science (Honours Co-op) at the University of Waterloo.
+              </div>
             </div>
           </div>
         </div>

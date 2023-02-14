@@ -13,10 +13,10 @@ export default function Hobbies() {
         <div className="page-title">
           <h1>hobbies.</h1>
         </div>
-        <div className="hobby-desc">
+        {/* <div className="hobby-desc">
           In my free time, I dabble in digital art, 3D-modeling and hip-hop
           dance. I also like taking pictures of myself hehe.
-        </div>
+        </div> */}
         <div className="page-container">
           <div className="gallery">
             <div className="gallery-column">
